@@ -1,0 +1,19 @@
+<h1>Your Tamagotchi <%= @pet.name() %></h1>
+
+<h2>Care for your pet here:</h2>
+
+<form action="/food" method="post">
+  <button type="submit">Feed your pet</button>
+</form>
+
+<form action="/sleep" method="post">
+  <button type="submit">Let your pet sleep</button>
+</form>
+
+<form action="/activity" method="post">
+  <button type="submit">Play with your pet</button>
+</form>
+
+<form action="/check" method="post">
+  <button type="submit">Check on your pet</button>
+</form>
